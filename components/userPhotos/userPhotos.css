@@ -1,0 +1,75 @@
+
+.cs142-userPhotos-viewCommentsButton {
+    margin-bottom: 10px;
+    display: flexbox;
+}
+
+.cs142-userPhotos-delete-error {
+    color: red;
+}
+
+
+.cs142-userPhotos-commentContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.cs142-userPhotos-username {
+    display: flexbox;
+    flex-grow: 1;
+}
+
+.cs142-userPhotos-commentTime {
+    display: flexbox;
+    position: relative;
+    bottom: 25px;
+    color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cs142-userPhotos-commentBody {
+    display: flexbox;
+    flex-grow: 2;
+    flex-basis: 90%;
+    position: relative;
+    bottom: 15px;
+}
+
+.cs142-userPhotos-deleteCommentButton {
+
+}
+
+.cs142-userPhotos-buttonsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cs142-userPhotos-addCommentButton {
+    margin-bottom: 10px;
+    display: flexbox;
+}
+
+.cs142-userPhotos-likesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cs142-userPhotos-likeButton {
+    display: flexbox;
+    height: 50%;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+.cs142-userPhotos-likeCounter {
+    display: flexbox;
+    margin-left: 10px;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    font-size: medium;
+}

@@ -1,0 +1,31 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+.cs142-topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cs142-topbar-version {
+  display: flexbox;
+}
+
+.cs142-topbar-middleContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cs142-topbar-rightSide {
+  display: flexbox;
+}
+
+.cs142-topbar-photoUploadSuccess {
+  display: flex;
+}
+
+.cs142-topbar-uploadContainer {
+  display: flex;
+  flex-direction: row;
+}

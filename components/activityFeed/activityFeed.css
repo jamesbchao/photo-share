@@ -1,0 +1,38 @@
+.cs142-activity-feed-record-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cs142-activity-feed-flexbox-header {
+    font-size: 40px;
+}
+
+.cs142-activity-feed-flexbox-header {
+    display: flexbox;
+    font-size: 40px;
+    color: gray;
+    margin-right: 5px;
+}
+
+.cs142-activity-feed-text {
+    display: flexbox;
+    margin-right: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.cs142-activity-feed-photo {
+    display: flexbox;
+    width: 10%;
+    height: 10%;
+    margin-right: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.cs142-activity-feed-divider {
+    position: relative;
+    top: 15px;
+    color: darkgray;
+    margin-right: 5px;
+}

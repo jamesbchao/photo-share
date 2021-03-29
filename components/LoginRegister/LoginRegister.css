@@ -1,0 +1,35 @@
+.cs142-LoginRegister-formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.cs142-LoginRegister-input-field {
+    display: flex;
+    margin: 10px;
+}
+
+.cs142-LoginRegister-submit {
+    display: flex;
+    margin: 10px;
+    width: 75px;
+    text-align: center;
+}
+
+.cs142-LoginRegister-login-message, .cs142-LoginRegister-register-message {
+    font-size: medium;
+}
+
+.cs142-LoginRegister-submit {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+}
+
+.cs142-LoginRegister-invalidMessage {
+    color: red;
+}
+
+.cs142-LoginRegister-successMessage {
+    color: lightgreen;
+}

@@ -1,0 +1,81 @@
+.cs142-userDetail-headerContainer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.cs142-userDetail-name {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cs142-userDetail-button {
+    height: 50%;
+    display: flexbox;
+    position: relative;
+    top: 33px;
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+}
+
+.cs142-userDetail-button:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+.cs142-userDetail-id {
+    display: flex;
+    justify-content: center;
+}
+
+.cs142-userDetail-location {
+    display: flex;
+    justify-content: center;
+}
+
+.cs142-userDetail-occupation {
+    display: flex;
+    justify-content: center;
+}
+
+.cs142-userDetail-description {
+    display: flex;
+    justify-content: center;
+}
+
+.cs142-userDetail-toPhotos {
+    display: flex;
+    justify-content: center;
+}
+
+.cs142-userDetail-delete-user-button {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.cs142-userDetail-delete-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.cs142-userDetail-delete-warning {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.cs142-userDetail-confirmation-buttons-container {
+    display: flex;
+}
+
+.cs142-userDetail-invalid-message {
+    color: red;
+}
+
